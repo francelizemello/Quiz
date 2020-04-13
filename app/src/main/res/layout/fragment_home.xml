@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:id="@+id/lnJogo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radioGroup"
+            android:layout_margin="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lnJogo">
+
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:id="@+id/rdNivel1"
+                android:text="Nível 1 - Australopitecos"
+                android:textColor="@color/colorPrimary"
+                android:textSize="26sp" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nível 2 - Australopitecos"
+                android:id="@+id/rdNivel2"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+                android:textSize="26sp" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nível 3 - Homo habilis"
+                android:textStyle="normal"
+                android:id="@+id/rdNivel3"
+                android:textColor="@color/colorPrimary"
+                android:textSize="26sp" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nível 4 - Homo sapiens"
+                android:textStyle="normal"
+                android:id="@+id/rdNivel4"
+                android:textColor="@color/colorPrimary"
+                android:textSize="26sp" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="@id/lnJogo"
+        app:layout_constraintRight_toRightOf="@id/lnJogo"
+        app:layout_constraintTop_toBottomOf="@id/lnJogo"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Perfil"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/btPerfil"
+            android:background="@drawable/button_select_geral"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Sobre"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/btSobre"
+            android:background="@drawable/button_select_geral"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

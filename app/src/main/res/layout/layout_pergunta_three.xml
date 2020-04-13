@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.sobre.SobreActivity">
+
+
+        <TextView
+            android:id="@+id/tituloPar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:layout_margin="8dp"
+            android:text="Neste nível você é um hominídeo extinto pertencente ao gênero Homo, da espécie Homo erectus, com aumento do tamanho do cérebro, presença dos cumes da testa, um rosto encurtado e com uma projetada abertura nasal."
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tituloPar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Você, Homo erectus, é uma espécie crucial na evolução do ser humano atual que, evidencias indicam, evoluiu a partir do solo africano há cerca de 1,8 milhões de anos atrás, migrando depois para a Ásia e, muito depois, para a Europa. "
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituloPar1" />
+
+        <TextView
+            android:id="@+id/tituloPar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="O nome da sua espécie está ligada ao fato de que, nesse estágio evolutivo, você já é capaz de se movimentar, predominantemente, ereto, tal como um ser humano moderno."
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituloPar2" />
+
+        <TextView
+            android:id="@+id/tituloPar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:text="Como estamos brincando vamos ver como você se sai frente aos desafios sobre evolução humana – no nível 03!"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituloPar3" />
+
+
+        <Button
+            android:id="@+id/btIniciarJogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_select_geral"
+            android:text="Iniciar Jogo"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@id/tituloPar4"
+            app:layout_constraintRight_toRightOf="@id/tituloPar4"
+            app:layout_constraintTop_toBottomOf="@id/tituloPar4" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

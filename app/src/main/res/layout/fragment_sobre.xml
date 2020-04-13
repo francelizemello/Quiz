@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.sobre.SobreActivity">
+
+    <TextView
+        android:id="@+id/tituloNivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:text="Seja bem-vindo ao Quiz -        ‘A Evolução não para!’."
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tituloPar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text="Então, com base nos conhecimentos científicos já firmados, você percorrerá 4 níveis de desafios até percorrer a evolução de nível Homo sapiens!!!"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloNivel" />
+
+    <TextView
+        android:id="@+id/tituloPar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text="Mas, cuidado, não esqueça que a evolução humana não ocorreu de forma linear, ao contrário, foi um complexo processo de diversificação dos hominídeos ancestrais até surgir à nossa espécie atual – Homo sapiens."
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloPar1" />
+
+    <TextView
+        android:id="@+id/tituloPar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text="Com base nesse conhecimento, vamos lá aos desafios!"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloPar2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Começar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/btComecar"
+        android:background="@drawable/button_select_geral"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/tituloPar3"
+        app:layout_constraintRight_toRightOf="@id/tituloPar3"
+        app:layout_constraintTop_toBottomOf="@id/tituloPar3"
+        app:layout_constraintVertical_bias="1.0"
+ />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

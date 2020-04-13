@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.sobre.SobreActivity">
+
+
+        <TextView
+            android:id="@+id/tituloPar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Neste nível você é um hominídeo extinto pertencente ao gênero Australopitecus. De forma geral, você tem o cérebro 35% menor que o do Homo sapiens, é baixinho com cerca de 1,20m e tem o corpo coberto de pelos, muito parecido aos chimpanzés e bonobos (chimpanzé-anão). "
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tituloPar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Um detalhe, como neste nível a inteligência do Australopitecos seria compatível com a de um chimpanzé, você ainda não conseguiria ler, controlar o fogo e nem participar deste Quiz! Hahaha"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituloPar1" />
+
+        <TextView
+            android:id="@+id/tituloPar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="No entanto, como estamos apenas brincando vamos ver como você se sai frente aos desafios sobre evolução humana – no nível 01!"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituloPar2" />
+
+        <Button
+            android:id="@+id/btEntendi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_select_geral"
+            android:text="Entendi!"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@id/tituloPar3"
+            app:layout_constraintRight_toRightOf="@id/tituloPar3"
+            app:layout_constraintTop_toBottomOf="@id/tituloPar3" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
