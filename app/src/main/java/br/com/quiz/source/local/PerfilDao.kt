@@ -3,6 +3,7 @@ package br.com.quiz.source.local
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
+import androidx.room.Update
 import br.com.quiz.source.model.Perfil
 
 @Dao
@@ -15,4 +16,7 @@ interface PerfilDao {
 
     @Query("DELETE FROM perfil")
     fun deletarPerfil()
+
+    @Update
+    fun updatePerfil(perfil: Perfil?)
 }

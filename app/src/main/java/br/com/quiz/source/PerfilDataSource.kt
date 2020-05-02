@@ -10,4 +10,7 @@ interface PerfilDataSource {
     fun salvarPerfil(
         perfil: Perfil?
     )
+    fun updatePerfil(
+        perfil: Perfil?
+    )
 }

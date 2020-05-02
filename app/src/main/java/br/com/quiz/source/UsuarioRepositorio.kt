@@ -15,8 +15,8 @@ class UsuarioRepositorio
 
     }
 
-    override fun salvarUsuario(usuario: Usuario?,acao: () -> Unit) {
-        localDataSource.salvarUsuario(usuario,acao)
+    override fun salvarUsuario(usuario: Usuario?) {
+        localDataSource.salvarUsuario(usuario)
     }
 
     private lateinit var user : Usuario

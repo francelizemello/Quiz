@@ -14,6 +14,16 @@ class PerfilLocalDataSource(
     val perfilDao: PerfilDao
 
 ) : PerfilDataSource {
+    override fun updatePerfil(perfil: Perfil?) {
+        appExecutors.diskIO.execute {
+            try {
+                perfilDao.updatePerfil(perfil)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
+
     override fun pegarPerfil(callbackResponse: CallbackResponse<Perfil>) {
         appExecutors.diskIO.execute {
             val usuarios = perfilDao.pegarPerfil()

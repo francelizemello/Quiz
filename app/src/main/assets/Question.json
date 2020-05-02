@@ -1,84 +1,165 @@
 {
   "questoes": [
     {
-      "Question": "What is Pending Intent in android?",
-      "OptionA": "It is a kind of an intent",
-      "OptionB": "It is used to pass the data between activities",
-      "OptionC": "*It will fire at a future point of time.",
-      "OptionD": "None of the Above",
+      "Question": "1)Hominídeo extinto que viveu há cerca de 3,9 milhões de anos e viveu em regiões do sul da África, cujas evidências desmentem a teoria de que a inteligência humana se desenvolveu antes do homem andar sobre duas pernas. Esses hominídeos pertencem ao gênero Australopithecus  que significa:",
+      "OptionA": "a)Macaco homem",
+      "OptionB": "b)Macaco do sul",
+      "OptionC": "b)Macaco do sul",
+      "OptionD": "d)Macaco habilidoso",
+      "Answer": 1
+    },
+    {
+      "Question": "2)Em 1978,o paleoantropólogo Donald Johanson e sua equipe desenterraram vários fósseis de uma espécie de Australopithecus na região da Etiópia. O esqueleto mais completo pertencia ao fóssil de uma fêmea com, aproximadamente, 1,10 m de altura, que viveu por volta de 3,2 milhões de anos atrás e cujas evidências mostravam aos pesquisadores que aqueles hominídeos haviam caminhado ereto. Por inspiração de uma música da banda inglesa Beatles, esse fóssil mais completo de Australopithecus foi batizado de:",
+      "OptionA": "a)Luzia",
+      "OptionB": "b)Sherry",
+      "OptionC": "c)Ana",
+      "OptionD": "d)Lucy",
+      "Answer": 3
+    },
+    {
+      "Question": "3)Na Garganta de Olduvai, na Tanzânia (África Oriental), foram encontrados fósseis de um gênero de hominídeo primitivo que viveu de 2,2 milhões a 780 mil anos atrás.  Os fósseis desses hominídeos foram encontrados ao lado de ferramentas de madeira, ossos e, principalmente, de pedra lascada, as quais se tornaram evidências da capacidade de produzir suas próprias ferramentas. Por essa razão esses hominídeos foram batizados de:",
+      "OptionA": "a)Homo erectus",
+      "OptionB": "b)Homo habilis",
+      "OptionC": "c)Homo sapiens",
+      "OptionD": "d)Homo neanderthalensis",
+      "Answer": 1
+    },
+    {
+      "Question": "4)Os primeiros esqueletos de humanos modernos foram encontrados no sudoeste da França em uma região chamada de Cro-Magnon e foram datados entre 23 e 27 mil anos atrás e receberam o nome de homem de Cro-magnon, que são os restos/fósseis mais antigos de Homo sapiens da Europa. Entretanto, há restos mais antigos em outro continente que indicam evidências de que foi lá que a espécie humana surgiu. Qual é o continente onde nasceu os ancestrais da espécie humana de onde migraram para outras partes do mundo? ",
+      "OptionA": "a)Ásia",
+      "OptionB": "b)Américas",
+      "OptionC": "c)África",
+      "OptionD": "d)Europa",
       "Answer": 2
     },
     {
-      "Question": "What is android view group?",
-      "OptionA": "*Collection of views and other child views",
-      "OptionB": "Base class of building blocks",
-      "OptionC": "Layouts",
-      "OptionD": "None of the Above",
-      "Answer": 0
-    },
-    {
-      "Question": "On which thread broadcast receivers will work in android?",
-      "OptionA": "Worker Thread",
-      "OptionB": "*Main Thread",
-      "OptionC": "Activity Thread",
-      "OptionD": "None of the Above",
-      "Answer": 1
-    },
-    {
-      "Question": "How to store heavy structured data in android?",
-      "OptionA": "Shared Preferences",
-      "OptionB": "Cursor",
-      "OptionC": "*SQlite database",
-      "OptionD": "Not possible",
+      "Question": "5)Considerando certas evidências da evolução dos seres humanos é possível afirmar que:",
+      "OptionA": "a)Os seres humanos evoluíram na Europa e depois migraram para o resto do mundo",
+      "OptionB": "b)O volume craniano foi cada vez ficando menor",
+      "OptionC": "c)O comportamento social foi ficando cada vez mais complexo",
+      "OptionD": "d)Os seres humanos evoluíram de forma separada nas América e outro grupo evoluiu na África",
       "Answer": 2
     },
     {
-      "Question": "What is the 9 patch tool in android?",
-      "OptionA": "*Using with tool, we can redraw images in 9 sections.",
-      "OptionB": "image extension tool",
-      "OptionC": "image editable tool",
-      "OptionD": "Device features",
-      "Answer": 0
+      "Question": "6)O fóssil mais antigo das Américas foi encontrado na região de Minas Gerais e tem data de aproximadamente de 12.000 anos. A primeira reconstrução facial desse fóssil apontou que ele tinha traços africanos, mas, pesquisas recentes de DNA apontam que sua aparência era mais próxima a dos nativos que habitam as Américas.  Este fóssil foi batizado de:?",
+      "OptionA": "a)Lucy",
+      "OptionB": "b)Luiza",
+      "OptionC": "c)Luzia",
+      "OptionD": "d)Lúcia",
+      "Answer": 2
     },
     {
-      "Question": "What is a base adapter in android?",
-      "OptionA": "*Base Adapter is a common class for any adapter, which can we use for both ListView and spinner",
-      "OptionB": "A kind of adapter",
-      "OptionC": "Data storage space",
-      "OptionD": "None of the above.",
-      "Answer": 0
+      "Question": "7)O último continente a ser colonizado pela espécie humana foram as Américas. Nenhuma outra espécie de hominídeo esteve presente nesse continente, só a espécie humana. A nossa espécie atingiu as Américas por uma faixa estreita de mar, que no período glacial estava congelada. Essa região é chamada de",
+      "OptionA": "a)Estreito de Dardanelos",
+      "OptionB": "b)Estreito de Bósforo",
+      "OptionC": "c)Istmo do Panamá",
+      "OptionD": "d)Estreito de Bering",
+      "Answer": 3
     },
     {
-      "Question": "In which technique, we can refresh the dynamic content in android?",
-      "OptionA": "Java",
-      "OptionB": "*Ajax",
-      "OptionC": "Android",
-      "OptionD": "None of the Above",
+      "Question": "8)Existe uma teoria que afirma que o homem chegou as Américas por outra rota além da travessia pelo estreito de Bering. Nessa teoria, o homem teria chegado às Américas por meio de:",
+      "OptionA": "a)Uma ponte de areia entre a Ásia e a América.",
+      "OptionB": "b)Um grande movimento das pacas tectônicas",
+      "OptionC": "c)Pequenas embarcações vindos da Indonésia até a América do Sul",
+      "OptionD": "d)Mar congelado da última era glacial.",
+      "Answer": 2
+    },
+    {
+      "Question": "9)O Homo erectus foi um ancestral humano que media entre 1,4 m e 1,7 m e pesava na média 70 kg. Ele foi o primeiro a dominar um elemento que foi fundamental para os ancestrais humanos. Esse elemento é:",
+      "OptionA": "a)Agricultura",
+      "OptionB": "b)Pecuária",
+      "OptionC": "c)Irrigação",
+      "OptionD": "d)Fogo",
+      "Answer": 3
+    },
+    {
+      "Question": "10)Um dos pontos fundamentais no desenvolvimento da humanidade foi a invenção da escrita há aproximadamente 10 mil anos atrás, permitindo às gerações posteriores o acesso a registros de informações sobre atividades humanas, ampliando o conhecimento da humanidade. Uma das características fundamentais que marca como característica particular do homem moderno e o diferencia de seus ancestrais é:",
+      "OptionA": "a)Domínio do fogo",
+      "OptionB": "b)Cultura",
+      "OptionC": "c)Bipedalismo ",
+      "OptionD": "d)Fabricação de ferramentas de pedra lascada",
       "Answer": 1
     },
     {
-      "Question": "How many orientations does android support?",
-      "OptionA": "*4",
-      "OptionB": "10",
-      "OptionC": "2",
-      "OptionD": "None of the above",
-      "Answer": 0
+      "Question": "11)O Sahelanthropus tchadensis que viveu entre 6 e 7 milhões de anos atrás pode ter sido o ponto de separação entre as linhagens que deram origem ao chimpanzé e a linhagem que daria origem à nossa espécie humana. Dentre os representantes abaixo, qual deles é o mais antigo ancestral da espécie humana.",
+      "OptionA": "a)Homo sapiens",
+      "OptionB": "b)Homo erectus",
+      "OptionC": "c)Australopithecus africanus",
+      "OptionD": "d)Homo habilis",
+      "Answer": 2
     },
     {
-      "Question": "What is the purpose of super.onCreate() in android?",
-      "OptionA": "To create an activity",
-      "OptionB": "*To create a graphical window for subclass",
-      "OptionC": "It allows the developers to write the program",
-      "OptionD": "None of the above",
+      "Question": "12)Há cerca de 2 milhões de anos atrás surgiu uma espécie de hominídeo que desenvolveu uma vida social baseada em caça e coleta de alimentos. Essa espécie surgiu na África, mas foi a primeira a sair da África e alcançar a Europa e a Ásia. Essa espécie é.",
+      "OptionA": "a)Homo sapiens",
+      "OptionB": "b)Homo habilis",
+      "OptionC": "c)Australopithecus",
+      "OptionD": "d)Homo erectus",
+      "Answer": 3
+    },
+    {
+      "Question": "13)O Homo neanderthalensis foi uma espécie que viveu entre 450 mil e 25 mil anos atrás e seus fósseis foram descobertos em diferentes regiões da Europa e do Oriente Médio. Tinham volume craniano de 1600 cm3 e organização social desenvolvida. Qual foi a provável causa da extinção do Homo neanderthalensis.",
+      "OptionA": "a)O aquecimento global",
+      "OptionB": "b)A última era do gelo",
+      "OptionC": "c)Competição com o Homo sapiens",
+      "OptionD": "d)Queda de um asteroide",
+      "Answer": 2
+    },
+    {
+      "Question": "14)Observe a imagem e responda se ela está correta ou errada.",
+      "OptionA": "a)Correta, pois, a evolução humana ocorreu em linha reta dos primatas menos evoluídos até o ser humano",
+      "OptionB": "b)Errada, pois, a evolução humana ocorreu por meio da diversificação, não linear, de linhagens de primatas que se modificaram ao longo do tempo",
+      "OptionC": "c)Correta, pois, o que definiu a evolução humana foi a capacidade de produzir armas para se proteger dos predadores",
+      "OptionD": "d)Errada, pois, a evolução humana ocorreu de forma linear, mas, sem grandes modificações no tamanho do crânio das linhagens ancestrais.",
       "Answer": 1
     },
     {
-      "Question": "What is a thread in android?",
-      "OptionA": "Same as services",
-      "OptionB": "Background activity",
-      "OptionC": "Broadcast Receiver",
-      "OptionD": "*Independent dis-patchable unit is called a thread",
+      "Question": "15)Face do rosto protuberante, nariz grande, estrutura baixa, corpo robusto e cérebro maior que o da espécie humana. De qual representante do gênero Homo estamos falando:",
+      "OptionA": "a)Homo habilis",
+      "OptionB": "b)Homo erectus",
+      "OptionC": "c)Homo neanderthalensis",
+      "OptionD": "d)Australopithecus",
+      "Answer": 2
+    },
+    {
+      "Question": "16)Mudanças climáticas que ocorreram no planeta há 8 milhões de anos transformaram grandes áreas de florestas em savanas e forçaram os ancestrais humanos a descerem das árvores e se deslocarem mais sobre o solo, desenvolvendo gradativamente a capacidade de se locomover de forma ereta. A capacidade de andar ereto, que foi uma das características importantes para a evolução humana, é chamada de:",
+      "OptionA": "a)Bipedalismo",
+      "OptionB": "b)Arborismo",
+      "OptionC": "c)Migracionismo",
+      "OptionD": "d)Efeito ereto",
+      "Answer": 0
+    },
+    {
+      "Question": "17)Evidências fósseis de ancestrais humanos apresentam volumes cranianos diferentes. Observou-se que houve um aumento desse volume craniano durante o processo evolutivo, que corresponde a um aumento do cérebro e indica o desenvolvimento da inteligência. Qual hominídeo ancestral representa um estágio evolutivo entre o Homo habilis e o Homo sapiens:",
+      "OptionA": "a)Astralophitecus afarensis",
+      "OptionB": "b)Homo erectus",
+      "OptionC": "c)Australophitecus africanus",
+      "OptionD": "d)Homo neanderthalensis",
+      "Answer": 1
+    },
+    {
+      "Question": "18) A espécie humana evoluiu no continente africano e depois migrou pelo planeta atingindo a Europa  há 40 mil anos, a Ásia há 80 mil anos e chegando às Américas há aproximadamente 14 mil anos. Qual das linhagens ancestrais humanas se diversificou e deu origem ao Homo sapiens?",
+      "OptionA": "a)Homo erectus",
+      "OptionB": "b)Homo habilis",
+      "OptionC": "c)Homo neanderthalensis",
+      "OptionD": "d)Australopithecus",
+      "Answer": 0
+    },
+    {
+      "Question": "19) De acordo com evidências científicas a afirmativa “o homem veio dos macacos” está:",
+      "OptionA": "a)Errada, pois o homem é um animal diferente que não passa pelo processo de evolução.",
+      "OptionB": "b)Correta, pois evoluímos dos chimpanzés",
+      "OptionC": "c)Errada, pois não temos nenhum grau de semelhança com os macacos.",
+      "OptionD": "d)Errada, pois não evoluímos dos macacos, apenas compartilhamos de um ancestral primata comum.",
+      "Answer": 3
+    },
+    {
+      "Question": "20) A espécie humana surgiu no continente africano há aproximadamente 200 mil anos atrás, derivada de linhagens de Homo ergaster (Homo erectus africano). A partir de 100 mil anos nossa espécie migrou para os outros continentes. Em qual data aproximada nossa espécie chegou na Europa aproximadamente a:",
+      "OptionA": "a)200 mil anos atrás",
+      "OptionB": "b)14 mil anos atrás",
+      "OptionC": "c)70 mil anos atrás",
+      "OptionD": "d)40 mil anos atrás.",
       "Answer": 3
     }
+
   ]
 }

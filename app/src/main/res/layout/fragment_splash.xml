@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quiz Eduque"
+        android:text="Quiz - A evolução não para!"
         android:id="@+id/tvQuiz"
         android:textColor="@android:color/white"
         android:gravity="center"

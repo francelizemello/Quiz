@@ -23,9 +23,9 @@
         android:id="@+id/tvPergunta"
         android:textSize="18sp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:textAlignment="textStart"
         android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
         android:textColor="@android:color/black"
         android:text=" 1)  Hominídeo extinto que viveu há cerca de 3,9 milhões de anos e viveu em regiões do sul da África, cujas evidências desmentem a teoria de que a inteligência humana se desenvolveu antes do homem andar sobre duas pernas. Esses hominídeos pertencem ao gênero Australopithecus  que significa:"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -87,9 +87,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="@id/radioGroup"
-        app:layout_constraintRight_toRightOf="@id/radioGroup"
-        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        app:layout_constraintLeft_toLeftOf="@id/radioGroupQuestao"
+        app:layout_constraintRight_toRightOf="@id/radioGroupQuestao"
+        app:layout_constraintTop_toBottomOf="@id/radioGroupQuestao"
         app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

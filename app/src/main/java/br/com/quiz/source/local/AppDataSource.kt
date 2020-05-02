@@ -10,7 +10,7 @@ import br.com.quiz.source.model.Usuario
 @Database(
     entities = [
         Usuario::class,Perfil::class],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class AppDataBase : RoomDatabase() {
@@ -29,12 +29,14 @@ abstract class AppDataBase : RoomDatabase() {
                 if (INSTANCE == null) {
                     INSTANCE = Room.databaseBuilder(
                         context.applicationContext,
-                        AppDataBase::class.java,
-                        "quiz")
+                        AppDataBase::class.java!!, "quiz")
+                        .fallbackToDestructiveMigration()
                         .build()
                 }
                 return INSTANCE!!
             }
         }
+
+
     }
 }

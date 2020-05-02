@@ -9,7 +9,6 @@
         android:layout_height="match_parent"
         tools:context=".ui.sobre.SobreActivity">
 
-
         <TextView
             android:id="@+id/tituloPar1"
             android:layout_width="match_parent"

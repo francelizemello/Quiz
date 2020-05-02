@@ -1,9 +1,8 @@
 package br.com.quiz.ui.nivel
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import br.com.quiz.R
-import br.com.quiz.ui.splash.NivelFragment
 import br.com.quiz.util.NIVEL
 import br.com.quiz.util.replaceFragmentInActivity
 
@@ -22,5 +21,8 @@ class NivelActivity : AppCompatActivity() {
             .newInstance(nivel!!).also {
                 replaceFragmentInActivity(it, R.id.homeContentFrame)
             }
+
     }
+
+
 }

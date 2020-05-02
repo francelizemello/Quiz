@@ -1,4 +1,4 @@
-package br.com.quiz.ui.splash
+package br.com.quiz.ui.nivel
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,12 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import br.com.quiz.R
-import br.com.quiz.ui.home.HomeActivity
-import br.com.quiz.ui.nivel.NivelActivity
 import br.com.quiz.ui.questoes.QuestoesActivity
 import br.com.quiz.util.NIVEL
 import kotlinx.android.synthetic.main.fragment_nivel.*
-import kotlinx.android.synthetic.main.fragment_sobre.*
 
 
 class NivelFragment : Fragment() {
@@ -37,7 +34,6 @@ class NivelFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         btIniciarJogo.setOnClickListener(clickListener)
-
     }
 
     val clickListener = View.OnClickListener {view ->

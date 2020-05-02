@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.resultado.ResultadoActivity"></activity>
-        <activity android:name=".ui.nivel.NivelActivity" />
+        <activity android:name=".ui.perfil.PerfilActivity"></activity>
+        <activity android:name=".ui.resultado.ResultadoActivity" />
+        <activity android:name=".ui.nivel.NivelActivity"  >
+
+        </activity>
         <activity android:name=".ui.sobre.SobreActivity" />
         <activity android:name=".ui.home.HomeActivity" />
         <activity android:name=".ui.questoes.QuestoesActivity" />

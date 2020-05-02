@@ -6,8 +6,6 @@ import br.com.quiz.R
 import br.com.quiz.source.PerfilRepositorio
 import br.com.quiz.source.local.AppDataBase
 import br.com.quiz.source.local.PerfilLocalDataSource
-import br.com.quiz.ui.splash.NivelFragment
-import br.com.quiz.ui.splash.QuestoesFragment
 import br.com.quiz.util.AppExecutors
 import br.com.quiz.util.NIVEL
 import br.com.quiz.util.replaceFragmentInActivity
@@ -37,6 +35,6 @@ class QuestoesActivity : AppCompatActivity() {
         )
 
         val repositorio = PerfilRepositorio(perfilLocl)
-        presenter = PresenterQuestoes(repositorio,sobreFragment)
+        presenter = PresenterQuestoes(repositorio,sobreFragment,this)
     }
 }

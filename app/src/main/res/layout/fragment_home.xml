@@ -7,75 +7,209 @@
     tools:context=".ui.home.HomeActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
         android:id="@+id/lnJogo"
+        android:clipToPadding="false"
+        android:layout_weight="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
-        <RadioGroup
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:id="@+id/radioGroup"
-            android:layout_margin="16dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/lnJogo">
+            android:layout_margin="10dp"
+            android:id="@+id/card_nivel1"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/nivel_1"
+                    android:text="Nivel 1"
+                    android:textColor="@color/colorBranco" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/colorCinza"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="Australopitecos"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
 
 
-            <androidx.appcompat.widget.AppCompatRadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="normal"
-                android:id="@+id/rdNivel1"
-                android:text="Nível 1 - Australopitecos"
-                android:textColor="@color/colorPrimary"
-                android:textSize="26sp" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/card_nivel2"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/colorClaro"
+            android:layout_weight="1">
 
-            <androidx.appcompat.widget.AppCompatRadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nível 2 - Australopitecos"
-                android:id="@+id/rdNivel2"
-                android:textStyle="normal"
-                android:textColor="@color/colorPrimary"
-                android:textSize="26sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:background="@drawable/nivell_2"
+                    android:text="Nivel 2"
+                    android:textColor="@color/colorBranco" />
 
-            <androidx.appcompat.widget.AppCompatRadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nível 3 - Homo habilis"
-                android:textStyle="normal"
-                android:id="@+id/rdNivel3"
-                android:textColor="@color/colorPrimary"
-                android:textSize="26sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/colorCinza"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="Homo habilis"/>
+            </LinearLayout>
 
-            <androidx.appcompat.widget.AppCompatRadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nível 4 - Homo sapiens"
-                android:textStyle="normal"
-                android:id="@+id/rdNivel4"
-                android:textColor="@color/colorPrimary"
-                android:textSize="26sp" />
-
-
-        </RadioGroup>
-
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:id="@+id/lnJogo2"
+        android:layout_weight="1"
+        app:layout_constraintLeft_toLeftOf="@+id/lnJogo"
+        app:layout_constraintRight_toRightOf="@+id/lnJogo"
+        app:layout_constraintTop_toBottomOf="@+id/lnJogo">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/card_nivel3"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/colorClaro"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/nivel_3"
+                    android:text="Nivel 3"
+                    android:textColor="@color/colorBranco" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/colorCinza"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="Homo erectus"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/card_nivel4"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/colorClaro"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:background="@drawable/nivel_4"
+                    android:text="Nivel 4"
+                    android:textColor="@color/colorBranco" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/colorCinza"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="Homo sapiens"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintLeft_toLeftOf="@id/lnJogo"
-        app:layout_constraintRight_toRightOf="@id/lnJogo"
-        app:layout_constraintTop_toBottomOf="@id/lnJogo"
+        app:layout_constraintLeft_toLeftOf="@id/lnJogo2"
+        app:layout_constraintRight_toRightOf="@id/lnJogo2"
+        app:layout_constraintTop_toBottomOf="@id/lnJogo2"
         app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Novo Jogo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/btNovoJogo"
+            android:visibility="gone"
+            android:background="@drawable/button_select_geral"
+            android:textColor="@android:color/white" />
 
         <Button
             android:layout_width="match_parent"
@@ -96,6 +230,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:id="@+id/btSobre"
+            android:visibility="gone"
             android:background="@drawable/button_select_geral"
             android:textColor="@android:color/white" />
 

@@ -5,6 +5,10 @@ import br.com.quiz.source.model.Perfil
 class PerfilRepositorio (
     private val localDataSource: PerfilDataSource
 ) : PerfilDataSource {
+    override fun updatePerfil(perfil: Perfil?) {
+        localDataSource.updatePerfil(perfil)
+    }
+
     override fun pegarPerfil(callbackResponse: CallbackResponse<Perfil>) {
         localDataSource.pegarPerfil(callbackResponse)
     }

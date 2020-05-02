@@ -9,7 +9,6 @@ interface UsuarioDataSource {
     fun deletaUsuario(acao: () -> Unit)
 
     fun salvarUsuario(
-        usuario:Usuario?,
-        acao: () -> Unit
+        usuario:Usuario?
     )
 }

@@ -19,23 +19,20 @@ class UsuarioLocalDataSource(
                 if (usuarios.isEmpty()) {
                     callbackResponse.erro()
                 } else {
-                    Log.e("entrou aquiii ", usuarios[0].nome)
                     callbackResponse.sucesso(usuarios[0])
                 }
             }
         }
     }
 
-    override fun salvarUsuario(usuario: Usuario?, acao: () -> Unit) {
+    override fun salvarUsuario(usuario: Usuario?) {
         appExecutors.diskIO.execute {
             try {
                 usuarioDao.deletarUsuario()
                 usuarioDao.savarUsuario(usuario)
-                appExecutors.mainThread.execute(acao)
 
             } catch (e: Exception) {
                 e.printStackTrace()
-                appExecutors.mainThread.execute(acao)
             }
         }
     }
