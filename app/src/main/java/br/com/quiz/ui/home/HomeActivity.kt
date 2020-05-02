@@ -1,7 +1,9 @@
 package br.com.quiz.ui.home
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import br.com.quiz.R
 import br.com.quiz.source.PerfilRepositorio
 import br.com.quiz.source.local.AppDataBase
@@ -34,7 +36,13 @@ class HomeActivity : AppCompatActivity() {
         )
 
         val repositorio = PerfilRepositorio(perfilLocl)
-        presenter = PresenterHome(repositorio,homeFragment,this)
+        presenter = PresenterHome(repositorio, homeFragment, this)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        supportFragmentManager.popBackStack()
+
     }
 
 }

@@ -32,4 +32,8 @@ class PresenterSobre(
         })
     }
 
+    override fun getPerfil() {
+
+    }
+
 }

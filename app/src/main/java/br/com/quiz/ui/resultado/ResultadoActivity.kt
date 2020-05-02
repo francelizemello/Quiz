@@ -16,6 +16,8 @@ class ResultadoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         var data = intent.extras
         val nivel =data!!.getString(NIVEL)
         val pontos = data!!.getString(PONTOS)
@@ -26,8 +28,13 @@ class ResultadoActivity : AppCompatActivity() {
             .newInstance(nivel!!, pontos!!).also {
                 replaceFragmentInActivity(it, R.id.homeContentFrame)
             }
+
     }
 
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
     override fun onBackPressed() {
         super.onBackPressed()
         var intent = Intent(this, HomeActivity::class.java)

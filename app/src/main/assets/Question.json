@@ -6,6 +6,7 @@
       "OptionB": "b)Macaco do sul",
       "OptionC": "b)Macaco do sul",
       "OptionD": "d)Macaco habilidoso",
+      "url": "",
       "Answer": 1
     },
     {
@@ -14,6 +15,7 @@
       "OptionB": "b)Sherry",
       "OptionC": "c)Ana",
       "OptionD": "d)Lucy",
+      "url": "",
       "Answer": 3
     },
     {
@@ -22,6 +24,7 @@
       "OptionB": "b)Homo habilis",
       "OptionC": "c)Homo sapiens",
       "OptionD": "d)Homo neanderthalensis",
+      "url": "",
       "Answer": 1
     },
     {
@@ -30,6 +33,7 @@
       "OptionB": "b)Américas",
       "OptionC": "c)África",
       "OptionD": "d)Europa",
+      "url": "",
       "Answer": 2
     },
     {
@@ -38,6 +42,7 @@
       "OptionB": "b)O volume craniano foi cada vez ficando menor",
       "OptionC": "c)O comportamento social foi ficando cada vez mais complexo",
       "OptionD": "d)Os seres humanos evoluíram de forma separada nas América e outro grupo evoluiu na África",
+      "url": "",
       "Answer": 2
     },
     {
@@ -46,6 +51,7 @@
       "OptionB": "b)Luiza",
       "OptionC": "c)Luzia",
       "OptionD": "d)Lúcia",
+      "url": "",
       "Answer": 2
     },
     {
@@ -54,6 +60,7 @@
       "OptionB": "b)Estreito de Bósforo",
       "OptionC": "c)Istmo do Panamá",
       "OptionD": "d)Estreito de Bering",
+      "url": "",
       "Answer": 3
     },
     {
@@ -62,6 +69,7 @@
       "OptionB": "b)Um grande movimento das pacas tectônicas",
       "OptionC": "c)Pequenas embarcações vindos da Indonésia até a América do Sul",
       "OptionD": "d)Mar congelado da última era glacial.",
+      "url": "",
       "Answer": 2
     },
     {
@@ -70,6 +78,7 @@
       "OptionB": "b)Pecuária",
       "OptionC": "c)Irrigação",
       "OptionD": "d)Fogo",
+      "url": "",
       "Answer": 3
     },
     {
@@ -78,6 +87,7 @@
       "OptionB": "b)Cultura",
       "OptionC": "c)Bipedalismo ",
       "OptionD": "d)Fabricação de ferramentas de pedra lascada",
+      "url": "",
       "Answer": 1
     },
     {
@@ -86,6 +96,7 @@
       "OptionB": "b)Homo erectus",
       "OptionC": "c)Australopithecus africanus",
       "OptionD": "d)Homo habilis",
+      "url": "",
       "Answer": 2
     },
     {
@@ -94,6 +105,7 @@
       "OptionB": "b)Homo habilis",
       "OptionC": "c)Australopithecus",
       "OptionD": "d)Homo erectus",
+      "url": "",
       "Answer": 3
     },
     {
@@ -102,6 +114,7 @@
       "OptionB": "b)A última era do gelo",
       "OptionC": "c)Competição com o Homo sapiens",
       "OptionD": "d)Queda de um asteroide",
+      "url": "",
       "Answer": 2
     },
     {
@@ -110,6 +123,7 @@
       "OptionB": "b)Errada, pois, a evolução humana ocorreu por meio da diversificação, não linear, de linhagens de primatas que se modificaram ao longo do tempo",
       "OptionC": "c)Correta, pois, o que definiu a evolução humana foi a capacidade de produzir armas para se proteger dos predadores",
       "OptionD": "d)Errada, pois, a evolução humana ocorreu de forma linear, mas, sem grandes modificações no tamanho do crânio das linhagens ancestrais.",
+      "url": "tem imagem",
       "Answer": 1
     },
     {
@@ -118,6 +132,7 @@
       "OptionB": "b)Homo erectus",
       "OptionC": "c)Homo neanderthalensis",
       "OptionD": "d)Australopithecus",
+      "url": "",
       "Answer": 2
     },
     {
@@ -126,6 +141,7 @@
       "OptionB": "b)Arborismo",
       "OptionC": "c)Migracionismo",
       "OptionD": "d)Efeito ereto",
+      "url": "",
       "Answer": 0
     },
     {
@@ -134,6 +150,7 @@
       "OptionB": "b)Homo erectus",
       "OptionC": "c)Australophitecus africanus",
       "OptionD": "d)Homo neanderthalensis",
+      "url": "",
       "Answer": 1
     },
     {
@@ -142,6 +159,7 @@
       "OptionB": "b)Homo habilis",
       "OptionC": "c)Homo neanderthalensis",
       "OptionD": "d)Australopithecus",
+      "url": "",
       "Answer": 0
     },
     {
@@ -150,6 +168,7 @@
       "OptionB": "b)Correta, pois evoluímos dos chimpanzés",
       "OptionC": "c)Errada, pois não temos nenhum grau de semelhança com os macacos.",
       "OptionD": "d)Errada, pois não evoluímos dos macacos, apenas compartilhamos de um ancestral primata comum.",
+      "url": "",
       "Answer": 3
     },
     {
@@ -158,6 +177,7 @@
       "OptionB": "b)14 mil anos atrás",
       "OptionC": "c)70 mil anos atrás",
       "OptionD": "d)40 mil anos atrás.",
+      "url": "",
       "Answer": 3
     }
 

@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import br.com.quiz.R
+import br.com.quiz.source.model.Perfil
 import br.com.quiz.source.model.Usuario
 import br.com.quiz.ui.perfil.ContratoPerfil
 import br.com.quiz.util.*
@@ -31,6 +32,7 @@ class PerfilFragment : Fragment(), ContratoPerfil.View {
     override fun onResume() {
         super.onResume()
         presenter.start()
+        presenter.getPerfil()
     }
 
     override fun exibirDadosUsuario(usuario: Usuario) {
@@ -43,6 +45,14 @@ class PerfilFragment : Fragment(), ContratoPerfil.View {
         val pontos = PreferencesUtil.getPreff(activity, NIVEL1,"0").toInt()+PreferencesUtil.getPreff(activity, NIVEL2,"0").toInt()+
                 +PreferencesUtil.getPreff(activity, NIVEL3,"0").toInt()+PreferencesUtil.getPreff(activity, NIVEL4,"0").toInt()
         ptTotal.text=pontos.toString()+" Pontos"
+    }
+
+    override fun exibirDadosPerfil(perfil: Perfil) {
+        ptNivel1.text=perfil.scoreNivel1.toString()
+        ptNivel2.text=perfil.scoreNivel2.toString()
+        ptNivel3.text=perfil.scoreNivel3.toString()
+        ptNivel4.text=perfil.scoreNivel4.toString()
+        ptTotal.text=perfil.scoreTotal.toString()
     }
 
     companion object {

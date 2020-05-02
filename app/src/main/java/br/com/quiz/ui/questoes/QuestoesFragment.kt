@@ -8,6 +8,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.AppCompatRadioButton
 import androidx.core.content.ContextCompat
@@ -42,6 +43,7 @@ class QuestoesFragment : Fragment(), ContratoQuestoes.View {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        play(context!!)
         btResponder.setOnClickListener(clickListener)
         if (arguments != null) {
             nivel = arguments!!.getString(NIVEL).toString()
@@ -51,7 +53,20 @@ class QuestoesFragment : Fragment(), ContratoQuestoes.View {
 
     override fun onResume() {
         super.onResume()
+        if (context!= null){
+            play(context!!)
+        }
         presenter.start()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        stopPlayer()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        stopPlayer()
     }
 
     val clickListener = View.OnClickListener { view ->
@@ -191,12 +206,20 @@ class QuestoesFragment : Fragment(), ContratoQuestoes.View {
     }
 
     override fun carregarQuestao(indice: Int) {
+        var image: ImageView = view!!.findViewById(R.id.imagePergunta)
         position = indice
         if (activity != null && !activity!!.isFinishing) {
             var questionSet = FileParser().lerArquivo(activity?.assets!!.open("Question.json"))
             listaQuestoes = gson.fromJson(questionSet, questoes::class.java).questoesQuiz
             if (listaQuestoes != null) {
                 if (indice < listaQuestoes.size) {
+                    if (listaQuestoes[indice].url.equals("tem imagem") && view != null){
+                        image.visibility = View.VISIBLE
+                        image.setImageResource(R.drawable.pergunta14)
+
+                    }else{
+                        image.visibility = View.GONE
+                    }
                     tvPergunta.text =  listaQuestoes[indice].question
                     questaoA.text = listaQuestoes[indice].optiona
                     questaoB.text = listaQuestoes[indice].optionb

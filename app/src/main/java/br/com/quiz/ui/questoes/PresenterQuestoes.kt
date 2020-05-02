@@ -38,6 +38,10 @@ class PresenterQuestoes(
         })
     }
 
+    override fun getPerfil() {
+
+    }
+
     override fun salvarPerfil(perfil: Perfil?) {
     }
 

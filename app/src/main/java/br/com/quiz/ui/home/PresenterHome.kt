@@ -35,6 +35,10 @@ class PresenterHome(
         })
     }
 
+    override fun getPerfil() {
+
+    }
+
     override fun deletarPerfil() {
         repositorio.deletaPerfil { }
     }

@@ -38,6 +38,19 @@ class SobreFragment : Fragment(), ContratoSobre.View {
     override fun onResume() {
         super.onResume()
         presenter.start()
+        if (context != null){
+            play(context!!)
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        stopPlayer()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        stopPlayer()
     }
 
     val clickListener = View.OnClickListener { view ->
@@ -47,6 +60,7 @@ class SobreFragment : Fragment(), ContratoSobre.View {
     }
 
     fun irJogo() {
+        stopPlayer()
         startActivity(Intent(activity, HomeActivity::class.java))
         activity?.finish()
     }

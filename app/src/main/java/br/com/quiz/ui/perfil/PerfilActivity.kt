@@ -4,8 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.com.quiz.R
+import br.com.quiz.source.PerfilRepositorio
 import br.com.quiz.source.UsuarioRepositorio
 import br.com.quiz.source.local.AppDataBase
+import br.com.quiz.source.local.PerfilLocalDataSource
 import br.com.quiz.source.local.UsuarioLocalDataSource
 import br.com.quiz.ui.home.HomeActivity
 import br.com.quiz.ui.sobre.PerfilFragment
@@ -21,6 +23,7 @@ class PerfilActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_perfil)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val sobreFragment = supportFragmentManager.findFragmentById(
             R.id.homeContentFrame
@@ -36,8 +39,19 @@ class PerfilActivity : AppCompatActivity() {
             localDB.usuarioDao()
         )
 
+        val perfilLocl = PerfilLocalDataSource.getInstance(
+            AppExecutors(),
+            localDB.perfilDao()
+        )
+
         val repositorio = UsuarioRepositorio(usuarioLocal)
-        presenter = PresenterPerfil(repositorio,sobreFragment,this)
+        val repositorioPerfil = PerfilRepositorio(perfilLocl)
+        presenter = PresenterPerfil(repositorio, repositorioPerfil , sobreFragment,this)
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 
     override fun onBackPressed() {
