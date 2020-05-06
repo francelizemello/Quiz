@@ -27,9 +27,9 @@ class PresenterQuestoes(
                 else if (response.scoreNivel2 < 5 && response.scoreNivel1 >= 5)
                     fragment.carregarQuestao(5)
                 if (response.scoreNivel3 < 5 && response.scoreNivel2 >= 5)
-                    fragment.carregarQuestao(9)
+                    fragment.carregarQuestao(10)
                 if (response.scoreNivel4 < 5 && response.scoreNivel3 >= 5)
-                    fragment.carregarQuestao(14)
+                    fragment.carregarQuestao(15)
             }
 
             override fun erro() {

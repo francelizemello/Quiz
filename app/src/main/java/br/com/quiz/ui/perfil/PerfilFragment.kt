@@ -38,13 +38,6 @@ class PerfilFragment : Fragment(), ContratoPerfil.View {
     override fun exibirDadosUsuario(usuario: Usuario) {
         title.text=usuario.nome
         title.text="Oi "+usuario.nome + " , segue teu Score!"
-        ptNivel1.text=PreferencesUtil.getPreff(activity, NIVEL1,"0")+ " Pontos"
-        ptNivel2.text=PreferencesUtil.getPreff(activity, NIVEL2,"0")+ " Pontos"
-        ptNivel3.text=PreferencesUtil.getPreff(activity, NIVEL3,"0")+ " Pontos"
-        ptNivel4.text=PreferencesUtil.getPreff(activity, NIVEL4,"0")+ " Pontos"
-        val pontos = PreferencesUtil.getPreff(activity, NIVEL1,"0").toInt()+PreferencesUtil.getPreff(activity, NIVEL2,"0").toInt()+
-                +PreferencesUtil.getPreff(activity, NIVEL3,"0").toInt()+PreferencesUtil.getPreff(activity, NIVEL4,"0").toInt()
-        ptTotal.text=pontos.toString()+" Pontos"
     }
 
     override fun exibirDadosPerfil(perfil: Perfil) {
@@ -52,7 +45,8 @@ class PerfilFragment : Fragment(), ContratoPerfil.View {
         ptNivel2.text=perfil.scoreNivel2.toString()
         ptNivel3.text=perfil.scoreNivel3.toString()
         ptNivel4.text=perfil.scoreNivel4.toString()
-        ptTotal.text=perfil.scoreTotal.toString()
+        var total = perfil.scoreNivel1.toInt()+perfil.scoreNivel2.toInt()+perfil.scoreNivel3.toInt()+perfil.scoreNivel4.toInt()
+        ptTotal.text= total.toString()
     }
 
     companion object {

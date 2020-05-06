@@ -55,7 +55,7 @@ class ResultadoFragment : Fragment() {
                 tvNovoNivel.text =
                     "Você superou todos os desafios sobre evolução humana e mostrou que é um verdadeiro Homo sapiens. Muito bem! Você concluiu este Quiz e conheceu que A EVOLUÇÃO NÃO PARA!"
                 Glide.with(context).load(R.drawable.apaixonado).into(imgEmotion)
-                tvPontos.text = ""
+                tvPontos.visibility = View.GONE
 
             }else{
                 tvQuiz.text = "Poxa!"
